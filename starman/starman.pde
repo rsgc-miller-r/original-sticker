@@ -9,12 +9,12 @@ void setup() {
 void draw() {
   if (mousePressed) {
     background(random(255), random(255), random(255));
+    textSize(50);
+    text("PARTY HARD", 147, 83);
   } else {
-   background(255,255,255);
+   background(255,0,0);
    
   }
- textSize(50);
- text("PARTY HARD", 147, 83);
  textSize(12);
  text("Y: " + mouseY, mouseX, mouseY);
  stroke(0);
